@@ -1,12 +1,6 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
 @import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
+@import url('./1-timer.css');
+@import url('./2-snackbar.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -23,3 +17,42 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 850px;
+  margin: 0;
+  gap: 250px;
+}
+
+.link {
+  padding: 15px 20px;
+  color: #ffffff;
+  display: block;
+  border: 1px solid #808080;
+  border-radius: 2px;
+  background-color: #808080;
+  width: 100px;
+  text-align: center;
+
+  &:hover {
+    border: 1px solid #242424;
+    background-color: #242424;
+  }
+}
+
+.to-home {
+  width: fit-content;
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+
+section {
+  position: relative;
+  top: 100px;
+  width: fit-content;
+}
+
+
